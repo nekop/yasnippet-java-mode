@@ -1,0 +1,6 @@
+#name : Thread.sleep()
+# --
+try {
+    Thread.sleep(${1:1000});
+} catch (InterruptedException ignore) { }
+$0

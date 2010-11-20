@@ -1,0 +1,7 @@
+#name : thread
+# --
+Thread t = new Thread($1) {
+    public void run() {
+        $0
+    }
+}.start();

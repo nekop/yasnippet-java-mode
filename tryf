@@ -1,0 +1,6 @@
+#name : try, finally
+# --
+try {
+    $0
+} finally {
+}

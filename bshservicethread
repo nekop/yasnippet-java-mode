@@ -1,0 +1,22 @@
+finished = false;
+interval = 10000;
+
+run() {
+    while (!finished) {
+        $0
+        Thread.sleep(${1:interval});
+    }
+}
+
+objectName() {
+   return "bsh:service=Example";
+}
+
+start() {
+    finished = false;
+    new Thread(this).start();
+}
+
+stop() {
+    finished = true;
+}
