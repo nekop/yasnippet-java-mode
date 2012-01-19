@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name : thread
 # --
 Thread t = new Thread($1) {

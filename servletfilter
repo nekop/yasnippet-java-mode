@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name : Filter
 # --
 import java.io.IOException;
@@ -8,7 +9,7 @@ import javax.servlet.ServletException;
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
 
-public class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} implements Filter {
+public class ${1:`(file-name-sans-extension (buffer-name))`} implements Filter {
 
     private FilterConfig config;
 

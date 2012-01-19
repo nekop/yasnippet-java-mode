@@ -1,5 +1,6 @@
-#name : class { ... }
+# -*- mode: snippet -*-
+#name : class
 # --
-public class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} {
+public class ${1:`(file-name-sans-extension (buffer-name))`} {
     $0
 }

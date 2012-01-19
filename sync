@@ -1,5 +1,6 @@
+# -*- mode: snippet -*-
 #name : synchronized
 # --
-synchronized (${1:this} {
+synchronized (${1:this}) {
     $0
 }

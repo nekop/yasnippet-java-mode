@@ -1,4 +1,5 @@
-#name : try, catch
+# -*- mode: snippet -*-
+#name : try, catch, finally
 # --
 try {
     $0

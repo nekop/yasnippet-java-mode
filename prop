@@ -1,4 +1,5 @@
-#name :  prop
+# -*- mode: snippet -*-
+#name : prop
 # --
 private ${1:String} ${2:name};
 

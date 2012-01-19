@@ -1,0 +1,6 @@
+# -*- mode: snippet -*-
+#name : for (... : ...) { ... }
+# --
+for (${1:String} ${2:name} : ${4:iterable}) {
+    $0
+}

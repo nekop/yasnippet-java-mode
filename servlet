@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name : HttpServlet
 # --
 import java.io.IOException;
@@ -6,7 +7,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class ${1:`(file-name-nondirectory (file-name-sans-extension (buffer-file-name)))`} extends HttpServlet {
+public class ${1:`(file-name-sans-extension (buffer-name))`} extends HttpServlet {
     public void doGet(HttpServletRequest req, HttpServletResponse res)
         throws ServletException, IOException {
         $0

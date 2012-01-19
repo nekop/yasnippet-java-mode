@@ -1,3 +1,4 @@
+# -*- mode: snippet -*-
 #name : BufferedReader
 # --
 BufferedReader reader = null;
@@ -16,6 +17,8 @@ try {
     $3
 } finally {
     try {
-        reader.close();
+        if (reader != null) {
+            reader.close();
+        }
     } catch (Exception ignore) { }
 }

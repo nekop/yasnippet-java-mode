@@ -1,1 +1,4 @@
+# -*- mode: snippet -*-
+#name : implements
+# --
 implements $0
