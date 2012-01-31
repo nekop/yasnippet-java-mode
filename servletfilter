@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 #name : Filter
+#key : serveletfilter
 # --
 import java.io.IOException;
 import javax.servlet.Filter;
@@ -16,7 +17,7 @@ public class ${1:`(file-name-sans-extension (buffer-name))`} implements Filter {
     public void init(FilterConfig config) throws ServletException {
         this.config = config;
     }
-    
+
     public void doFilter(ServletRequest request,
                          ServletResponse response,
                          FilterChain chain)

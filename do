@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 #name : do { ... } while (...)
+#key : do
 # --
 do {
     $0

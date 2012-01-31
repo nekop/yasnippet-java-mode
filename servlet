@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 #name : HttpServlet
+#key : servlet
 # --
 import java.io.IOException;
 import javax.servlet.ServletException;
@@ -14,6 +15,6 @@ public class ${1:`(file-name-sans-extension (buffer-name))`} extends HttpServlet
     }
     public void doPost(HttpServletRequest req, HttpServletResponse res)
         throws ServletException, IOException {
-        
+
     }
 }
