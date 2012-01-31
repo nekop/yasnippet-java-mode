@@ -1,5 +1,6 @@
 # -*- mode: snippet -*-
 #name : if, else if, else
+#key : ifee
 # --
 if (${1:condition}) {
     $2
