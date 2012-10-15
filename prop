@@ -2,7 +2,7 @@
 #name : prop
 #key : prop
 # --
-private ${1:String} ${2:name};
+private ${1:String} ${2:name};$0
 
 public $1 get${2:$(upcase-initials text)}() {
     return $2;
