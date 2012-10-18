@@ -2,4 +2,4 @@
 #name : package
 #key : pa
 # --
-package $0
+package ${1:`(file-name-sans-extension (buffer-name))`};$0
