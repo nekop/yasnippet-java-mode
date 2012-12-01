@@ -1,0 +1,5 @@
+# -*- mode: snippet -*-
+#name : Declare and instantiate
+#key : dnew
+# --
+${1:Object} ${2:name} = new $1($3);$0
