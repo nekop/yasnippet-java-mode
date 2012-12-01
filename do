@@ -4,4 +4,4 @@
 # --
 do {
     $0
-} while (${1:condition});
+} while(${1:condition});
