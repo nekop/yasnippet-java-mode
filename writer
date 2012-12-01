@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : PrintWriter
-#key : writer
+# name: PrintWriter
+# key: writer
 # --
 PrintWriter writer = null;
 try {

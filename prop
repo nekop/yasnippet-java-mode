@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : prop
-#key : prop
+# name: prop
+# key: prop
 # --
 private ${1:String} ${2:name};$0
 

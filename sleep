@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : Thread.sleep()
-#key : sleep
+# name: Thread.sleep()
+# key: sleep
 # --
 try {
     Thread.sleep(${1:1000});

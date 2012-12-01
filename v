@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : void
-#key : v
+# name: void
+# key: v
 # --
 void $0

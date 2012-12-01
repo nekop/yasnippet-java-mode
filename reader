@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : BufferedReader
-#key : reader
+# name: BufferedReader
+# key: reader
 # --
 BufferedReader reader = null;
 try {

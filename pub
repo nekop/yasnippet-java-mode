@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : public
-#key : pub
+# name: public
+# key: pub
 # --
 public $0

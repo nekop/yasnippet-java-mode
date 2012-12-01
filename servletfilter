@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : Filter
-#key : serveletfilter
+# name: Filter
+# key: serveletfilter
 # --
 import java.io.IOException;
 import javax.servlet.Filter;

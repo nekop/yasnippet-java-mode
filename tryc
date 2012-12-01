@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : try, catch
-#key : tryc
+# name: try, catch
+# key: tryc
 # --
 try {
     $0

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : thread
-#key : thread
+# name: thread
+# key: thread
 # --
 Thread t = new Thread($1) {
     public void run() {

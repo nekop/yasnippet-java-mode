@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : constructor
-#key : con
+# name: constructor
+# key: con
 # --
 public ${1:`(file-name-sans-extension (buffer-name))`}($2) {
     $0

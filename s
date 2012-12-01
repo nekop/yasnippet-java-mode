@@ -1,5 +1,5 @@
 # -*- mode: snippet -*-
-#name : static
-#key : s
+# name: static
+# key: s
 # --
 static $0

@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : try, finally
-#key : trycf
+# name: try, finally
+# key: trycf
 # --
 try {
     $0

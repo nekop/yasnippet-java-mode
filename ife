@@ -1,6 +1,6 @@
 # -*- mode: snippet -*-
-#name : if, else
-#key : ife
+# name: if, else
+# key: ife
 # --
 if(${1:condition}) {
     $2
