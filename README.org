@@ -1,0 +1,23 @@
+* [[https://github.com/nekop/yasnippet-java-mode][yasnippet-java-mode]]
+
+A set of java-mode snippets for [[http://capitaomorte.github.com/yasnippet/][YASnippet]].
+
+** Installation
+
+Note that
+- the directory the snippets are installed into needs to be named "java-mode", and
+- YASnippet needs to [[http://capitaomorte.github.com/yasnippet/snippet-organization.html#loading-snippets][know the path to the directory]].
+
+The following describes two ways to install. The first method requires that =git= is installed and the second does not.
+
+*** Git
+
+=cd= to the directory you want to install in and do
+#+BEGIN_EXAMPLE
+  clone https://github.com/nekop/yasnippet-java-mode.git .
+#+END_EXAMPLE
+to clone the git repository into that directory. You can use the same command if you want to update your installation.
+
+*** Archive
+
+ [[https://github.com/nekop/yasnippet-java-mode/downloads][Download]] an archive and extract to the directory you want to install in.
