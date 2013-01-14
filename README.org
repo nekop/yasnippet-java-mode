@@ -20,4 +20,4 @@ to clone the git repository into that directory. You can use the same command if
 
 *** Archive
 
-[[https://github.com/Sleft/yasnippet-java-mode/archive/master.zip][Download]] an archive and extract to the directory you want to install in.
+[[https://github.com/nekop/yasnippet-java-mode/archive/master.zip][Download]] an archive and extract to the directory you want to install in.
