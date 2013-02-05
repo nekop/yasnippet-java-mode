@@ -13,7 +13,7 @@ The following describes two ways of installing. The first method requires that =
 
 =cd= to the directory you want to install in and do
 #+BEGIN_EXAMPLE
-clone https://github.com/nekop/yasnippet-java-mode.git .
+git clone https://github.com/nekop/yasnippet-java-mode.git .
 #+END_EXAMPLE
 to clone the git repository into that directory. You can use the same command if you want to update your installation.
 
