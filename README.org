@@ -1,22 +1,22 @@
 * [[https://github.com/nekop/yasnippet-java-mode][yasnippet-java-mode]]
 
-A set of java-mode snippets for [[http://capitaomorte.github.com/yasnippet/][YASnippet]].
+A set of java-mode snippets for [[https://github.com/capitaomorte/yasnippet][YASnippet]].
+
+The master branch is for yasnippet 0.8 or later, if you use 0.6 please use yasnippet-0.6 branch.
 
 ** Installation
 
-Note that
-- the directory that the snippets are installed into needs to be named "java-mode", and
-- YASnippet needs to [[http://capitaomorte.github.com/yasnippet/snippet-organization.html#loading-snippets][know the path to the directory]].
+Put this under your "~/.emacs.d/snippets/" directory and rename it to "java-mode".
+
 The following describes two ways of installing. The first method requires that =git= is installed and the second does not.
 
 *** Git
 
-=cd= to the directory you want to install in and do
 #+BEGIN_EXAMPLE
-git clone https://github.com/nekop/yasnippet-java-mode.git .
+cd ~/.emacs.d/snippets/
+git clone https://github.com/nekop/yasnippet-java-mode.git java-mode
 #+END_EXAMPLE
-to clone the git repository into that directory. You can use the same command if you want to update your installation.
 
 *** Archive
 
-[[https://github.com/nekop/yasnippet-java-mode/archive/master.zip][Download]] an archive and extract to the directory you want to install in.
+[[https://github.com/nekop/yasnippet-java-mode/archive/master.zip][Download]] an archive and extract to the directory you want to install in, rename it to "java-mode".
