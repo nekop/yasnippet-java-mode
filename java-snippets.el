@@ -1,10 +1,10 @@
-;;; java-snippets.el ---  Yasnippets for Java
+;;; java-snippets.el --- Yasnippets for Java
 
 ;; Copyright (C)  2010-2014 Takayoshi Kimura
 
 ;; Author: Takayoshi Kimura
 ;; URL: https://github.com/nekop/yasnippet-java-mode
-;; Package-Requires:((yasnippet "0.8.0"))
+;; Package-Requires: ((yasnippet "0.8.0"))
 
 ;;; Commentary:
 
