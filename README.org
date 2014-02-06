@@ -2,13 +2,11 @@
 
 A set of java-mode snippets for [[https://github.com/capitaomorte/yasnippet][YASnippet]].
 
-The master branch is for yasnippet 0.8 or later, if you use 0.6 please use yasnippet-0.6 branch.
-
 ** Installation
 
 I highly recommend installing =yasnippet-java-mode= through elpa.
 
-It's available on [[http://melpa.milkbox.net/][MELPA]], Note that package name is =java-snippets=:
+The package name is =java-snippets= and it's available on [[http://melpa.milkbox.net/][MELPA]].
 
 #+BEGIN_EXAMPLE
 M-x package-install java-snippets
