@@ -1,0 +1,10 @@
+# -*- mode: snippet -*-
+# name: Stateless session bean
+# key: slsb
+# --
+import javax.ejb.Stateless;
+
+@Stateless
+public class ${1:`(file-name-sans-extension (buffer-name))`} {
+    $0
+} 

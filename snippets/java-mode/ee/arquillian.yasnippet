@@ -1,0 +1,29 @@
+# -*- mode: snippet -*-
+# name: arquillian
+# key: arq
+# --
+import javax.inject.Inject;
+import org.jboss.arquillian.container.test.api.Deployment;
+import org.jboss.arquillian.junit.Arquillian;
+import org.jboss.shrinkwrap.api.ShrinkWrap;
+import org.jboss.shrinkwrap.api.asset.EmptyAsset;
+import org.jboss.shrinkwrap.api.spec.WebArchive;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import static org.junit.Assert.*;
+
+@RunWith(Arquillian.class)
+public class ${1:`(file-name-sans-extension (buffer-name))`} {
+    @Deployment
+    public static WebArchive createDeployment() {
+        return ShrinkWrap.create(WebArchive.class)
+                         .addClass(${2:`(substring (file-name-sans-extension (buffer-name)) 0 -4)`}.class)
+                         .addAsWebInfResource(EmptyAsset.INSTANCE, "beans.xml");
+    }
+
+    @Inject ${2:`(substring (file-name-sans-extension (buffer-name)) 0 -4)`} ${3:target};
+    @Test
+    public void ${4:test}() throws Exception {
+        $0
+    }
+}
