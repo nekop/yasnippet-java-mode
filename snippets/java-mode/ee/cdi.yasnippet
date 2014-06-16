@@ -1,0 +1,13 @@
+# -*- mode: snippet -*-
+# name: CDI bean
+# key: cdi
+# --
+import javax.enterprise.context.${1:Request}Scoped;
+import javax.inject.Inject;
+import javax.inject.Named;
+
+@Named
+@${1:Request}Scoped
+public class ${2:`(file-name-sans-extension (buffer-name))`} {
+    $0
+} 
