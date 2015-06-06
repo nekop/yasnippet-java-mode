@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: Creates a Singleton class
+# key: sin
+# --
+public class ${1:`(file-name-sans-extension (buffer-name))`}$2 {$0
+    private static $1 ourInstance = new $1();
+
+    public static $1 getInstance() {
+        return ourInstance;
+    }
+
+    private $1() {
+    }
+}
