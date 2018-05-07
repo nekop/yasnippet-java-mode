@@ -2,6 +2,8 @@
 
 A set of java-mode snippets for [[https://github.com/capitaomorte/yasnippet][YASnippet]].
 
+Unfortunately this nekop/yasnippet-java-mode repository is no longer actively maintained. Feel free to fork and take over if you wish.
+
 ** Installation
 
 I highly recommend installing =yasnippet-java-mode= through elpa.
